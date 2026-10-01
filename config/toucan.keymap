@@ -435,7 +435,7 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
                 &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
                 &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
                 &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                            &mkp MCLK &mkp LCLK &mkp RCLK           &mkp LCLK &mkp RCLK &mkp MCLK
+                            &mkp MCLK &mkp LCLK &mkp RCLK        &trans      &trans     &trans
             >;
         };
 
