@@ -370,13 +370,13 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         //│  none    │  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ / ?      │  none    │
             &kp Z   &kp X   &kp C   &kp D   &kp V   &kp K   &kp H   &kp COMMA   &kp DOT   &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
-                                            &mo 4      &lt 1 SPACE  &kp ENTER      MAGIC_SHIFT &lt 2 BSPC    &mo 2
+                                            &mo 4      &lt 1 SPACE  &kp ENTER      MAGIC_SHIFT &lt 2 BSPC    &mo 3
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
 
         nav_layer {
-            display-name = "Navigation Layer";
+            display-name = "Nav";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  none    │  ESC     │ TAB BACK │ TAB FWD  │ MUTE     │ ZOOM IN  │   │  ZOOM OUT│  HOME    │ PAGE DN  │ PAGE UP  │ END      │  none    │
@@ -394,7 +394,7 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         };
 
         sym_layer {
-            display-name = "Symbolic Layer";
+            display-name = "Sym";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  none    │  !       │  [       │  {       │  (       │  ?       │   │  @       │  )       │  }       │  ]       │  '       │  none    │
@@ -412,7 +412,7 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         };
 
         num_layer {
-            display-name = "Number Layer";
+            display-name = "Num";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  none    │  7       │  5       │  3       │  1       │  9       │   │  8       │  0       │  2       │  4       │  6       │  none    │
@@ -470,13 +470,13 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         //│          │          │          │          │          │          │   │          │          │          │          │          │          │
             &kp Z   &kp X   &kp C   &kp D   &kp V   &kp K   &kp H   &kp COMMA   &kp DOT   &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
-                                             &mo 4    &lt 7 SPACE  &kp ENTER    MAGIC_SHIFT  &lt 8 BSPC  &mo 9
+                                             &mo 10    &lt 7 SPACE  &kp ENTER    MAGIC_SHIFT  &lt 8 BSPC  &mo 9
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
 
         nav_lin {
-            display-name = "Nav Linux";
+            display-name = "Nav";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  none    │  ESC     │ TAB BACK │ TAB FWD  │ MUTE     │ ZOOM IN  │   │  ZOOM OUT│  HOME    │ PAGE DN  │ PAGE UP  │ END      │  none    │
@@ -488,14 +488,14 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         //│  none    │ HOME     │ END      │  CUT     │  UNDO    │ VOL_DOWN │   │ lang_swap│  DEL     | SEL WORD | JUMP WORD| WORD DEL │  none    │
             &kp HOME   &kp END   &kp LC(X)   &kp LC(Z)   &kp C_VOL_DN   &lang_swap   &kp DEL   &sel_word_lin   &jump_word_lin   &word_del_lin
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
-                                            &mo 4       &trans      &kp ENTER    MAGIC_SHIFT  &lt 8 BSPC  &mo 9
+                                            &mo 10       &trans      &kp ENTER    MAGIC_SHIFT  &lt 8 BSPC  &mo 9
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
 
         
         sym_lin {
-            display-name = "Symbols Linux";
+            display-name = "Sym";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  none    │  !       │  [       │  {       │  (       │  ?       │   │  @       │  )       │  }       │  ]       │  '       │  none    │
@@ -507,13 +507,13 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         //│  none    │  <       │  |       │  -       │  >       │  /       │   │  \       │  #       │  +       │  ~       │  `       │  none    │
             &kp LT   &kp PIPE   &kp MINUS   &kp GT   &kp SLASH   &kp BSLH   &kp HASH   &kp PLUS   &kp TILDE   &kp GRAVE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
-                                            &mo 4       &lt 7 SPACE &kp ENTER    MAGIC_SHIFT &trans      &mo 9
+                                            &mo 10       &lt 7 SPACE &kp ENTER    MAGIC_SHIFT &trans      &mo 9
         //                                 ╰──────────╴──────────╴──────────╯   ╰──────────╴──────────╴──────────╯
             >;
         };
 
         num_lin {
-            display-name = "Number Linux";
+            display-name = "Num";
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  none    │  7       │  5       │  3       │  1       │  9       │   │  8       │  0       │  2       │  4       │  6       │  none    │
@@ -525,11 +525,21 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
         //│  none    │  F7      │  F5      │  F3      │ F1       │  F9      │   │  F8      │  F12     │  F2      │  F4      │  F6      │  none    │
             &kp F7   &kp F5   &kp F3   &kp F1   &kp F9   &kp F8   &kp F12   &kp F2   &kp F4   &kp F6
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
-                                            &mo 4       &trans      &to 5            MAGIC_SHIFT &trans      &mo 9
+                                            &mo 10       &trans      &to 5            MAGIC_SHIFT &trans      &mo 9
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
 
+
+        mouse_lin {
+            display-name = "MOU";
+            bindings = <
+                &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
+                &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
+                &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
+                            &mkp MCLK &mkp LCLK &mkp RCLK        &trans      &trans     &trans
+            >;
+        };
 
         extra_3 {
                 status = "reserved";
