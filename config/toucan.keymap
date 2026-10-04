@@ -323,9 +323,8 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp RALT>
+                = <&macro_tap &kp RALT>
                 , <&macro_tap &kp DQT>
-                , <&macro_release &kp RALT>
                 , <&macro_tap &kp A>
                 ;
         };
@@ -334,9 +333,8 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp RALT>
+                = <&macro_tap &kp RALT>
                 , <&macro_tap &kp DQT>
-                , <&macro_release &kp RALT>
                 , <&macro_tap &kp O>
                 ;
         };
