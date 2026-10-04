@@ -132,6 +132,12 @@
         status = "disabled";
         device = <&trackpad_split>;
         input-processors = <&zip_xy_scaler 100 100>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&zip_temp_layer 4 750>, <&swipe_button_mapper>;
+
+        linux_pointer {
+            layers = <6 7 8 9 10>;
+            input-processors = <&zip_xy_scaler 100 100>, <&zip_scroll_scaler 1 20>, <&zip_zoom_mapper>, <&zip_temp_layer 10 750>, <&swipe_button_mapper>;
+        };
+
         scroller {
             layers = <1 2>;
             input-processors = <
