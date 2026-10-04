@@ -365,7 +365,7 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             &kp Q   &kp W   &kp F   &kp P   &kp B   &kp J   &kp L   &kp U   &kp Y   &m_u
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  none    │  A       │  R       │  S       │  T       │  G       │   │  M       │  N       │  E       │  I       │   O      │  none    │
-        &hml LSHFT A   &hml LCTRL R   &hml LALT S   &hml LGUI T   &kp G   &kp M   &hmr RGUI N   &hmr RALT E   &hmr RCTRL I   &hmr RSHFT O
+        &hml LSHFT A   &hml LCTRL R   &hml LALT S   &hml LGUI T   &kp G   &kp M   &hmr LGUI N   &hmr LALT E   &hmr LCTRL I   &hmr LSHFT O
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  none    │  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ / ?      │  none    │
             &kp Z   &kp X   &kp C   &kp D   &kp V   &kp K   &kp H   &kp COMMA   &kp DOT   &kp FSLH
@@ -465,7 +465,7 @@ ZMK_TRI_STATE(swapper_lin, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             &kp Q   &kp W   &kp F   &kp P   &kp B   &kp J   &kp L   &kp U   &kp Y   &m_u
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │          │          │
-        &hml LSHFT A   &hml LCTRL R   &hml LALT S   &hml LGUI T   &kp G   &kp M   &hmr RGUI N   &hmr RALT E   &hmr RCTRL I   &hmr RSHFT O
+        &hml LSHFT A   &hml LCTRL R   &hml LALT S   &hml LGUI T   &kp G   &kp M   &hmr LGUI N   &hmr LALT E   &hmr LCTRL I   &hmr LSHFT O
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │   │          │          │          │          │          │          │
             &kp Z   &kp X   &kp C   &kp D   &kp V   &kp K   &kp H   &kp COMMA   &kp DOT   &kp FSLH
